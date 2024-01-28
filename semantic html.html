@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Semantic HTML</title>
+    <style>
+      h2 {
+        color: palevioletred;
+        background:bisque;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      form {
+        color:hotpink;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-image: url(bg1.jpg);
+      }
+    </style>
+  <meta charset="UTF-8">
+
+</head>
+<body>
+  <table height=120px style="background: lightblue;"> 
+    <tr>
+      <td><img src="Logo-ILC.jpg" alt="Gambar 1" width="120px" height="120px"></td>
+      <td>
+        <center>
+          <h3>ILC</h3>
+          <h3>INFORMATICS LEARNING CLUB</h3>
+          <p>UPN "VETERAN" JAWA TIMUR</p>
+        </center>
+      </td>
+    </tr>
+  </table>
+  <header>
+
+  </header>
+ 
+  <nav>
+    <a href="#" style="color: cornflowerblue;" >Profil</a>
+    <a href="#" style="color: cornflowerblue;">Kegiatan</a>
+    <a href="#" style="color: cornflowerblue;">Registrasi</a>
+  </nav>
+  <main>
+    <article>
+      <h2 style=>Profil</h2>
+      <p>
+
+      </p>
+      <img src="profil.jpg" alt="Gambar 2">
+      
+      <h2>Kegiatan</h2>
+      <p>
+
+      </p>
+      <img src="event.jpg" alt="Gambar 3">
+    </article>
+    <section>
+      <h2>Formulir Registrasi</h2>
+      <form action="proses-registrasi.php" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="Email:"placeholder="address@gmail.com">
+
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="Password:"placeholder="password">
+        
+        <br><br>
+
+        <label for="foto profil">Foto Profil:</label>
+        <input type="file" style="color: lightpink;">
+
+        <br><br>
+
+        <label for="tanggal lahir">Tanggal Lahir:</label>
+        <input type="date" id="" name="" style="color: lightpink;">
+
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <select name="Gender" id="Gender:" style="color: lightpink;">
+            <option value="gender">Male</option>
+            <option value="gender">Female</option>
+        </select>
+
+        <br><br>
+
+        <button style="color: lightpink;">Submit</button>
+      </form>
+    </section>
+  </main>
+  <aside>
+    
+  </aside>
+  <footer>
+    <p style="background-color: lightcoral;">Copyright &copy; 2024</p>
+  </footer>
+</body>
+</html>
+
